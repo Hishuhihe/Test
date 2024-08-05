@@ -1,0 +1,216 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 298-280-948
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:26:51] "GET /accounts/get-list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:27:42] "GET /accounts/get-list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:27:48] "[31m[1mPOST /accounts/get-list HTTP/1.1[0m" 405 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:27:49] "[31m[1mPOST /accounts/get-list HTTP/1.1[0m" 405 -
+INFO:__main__:T\u1ea1o tài kho\u1ea3n m\u1edbi: user122241
+ERROR:__main__:L\u1ed7i khi t\u1ea1o tài kho\u1ea3n: 'AccountSchema' object has no attribute 'jsonify'
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:28:18] "[35m[1mPOST /accounts/create-new HTTP/1.1[0m" 500 -
+ERROR:__main__:L\u1ed7i xác th\u1ef1c khi t\u1ea1o tài kho\u1ea3n: {'login': ['Login \u0111ã t\u1ed3n t\u1ea1i']}
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:29:17] "[31m[1mPOST /accounts/create-new HTTP/1.1[0m" 400 -
+ERROR:__main__:L\u1ed7i xác th\u1ef1c khi t\u1ea1o tài kho\u1ea3n: {'password': ['Password ph\u1ea3i ch\u1ee9a ít nh\u1ea5t m\u1ed9t s\u1ed1 và m\u1ed9t ch\u1eef hoa'], 'login': ['Login \u0111ã t\u1ed3n t\u1ea1i']}
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:29:30] "[31m[1mPOST /accounts/create-new HTTP/1.1[0m" 400 -
+INFO:__main__:T\u1ea1o tài kho\u1ea3n m\u1edbi: user1222241
+ERROR:__main__:L\u1ed7i khi t\u1ea1o tài kho\u1ea3n: 'AccountSchema' object has no attribute 'jsonify'
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:29:38] "[35m[1mPOST /accounts/create-new HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'E:\\test\\test_1\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 298-280-948
+ERROR:__main__:L\u1ed7i xác th\u1ef1c khi t\u1ea1o tài kho\u1ea3n: {'login': ['Login \u0111ã t\u1ed3n t\u1ea1i']}
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:31:53] "[31m[1mPOST /accounts/create-new HTTP/1.1[0m" 400 -
+ERROR:__main__:L\u1ed7i xác th\u1ef1c khi t\u1ea1o tài kho\u1ea3n: {'password': ['Password ph\u1ea3i ch\u1ee9a ít nh\u1ea5t m\u1ed9t s\u1ed1 và m\u1ed9t ch\u1eef hoa'], 'login': ['Login \u0111ã t\u1ed3n t\u1ea1i']}
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:32:00] "[31m[1mPOST /accounts/create-new HTTP/1.1[0m" 400 -
+ERROR:__main__:L\u1ed7i xác th\u1ef1c khi t\u1ea1o tài kho\u1ea3n: {'login': ['Login \u0111ã t\u1ed3n t\u1ea1i']}
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:32:06] "[31m[1mPOST /accounts/create-new HTTP/1.1[0m" 400 -
+ERROR:__main__:L\u1ed7i xác th\u1ef1c khi t\u1ea1o tài kho\u1ea3n: {'login': ['Login ph\u1ea3i có \u0111\u1ed9 dài t\u1eeb 3 \u0111\u1ebfn 20 ký t\u1ef1']}
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:32:12] "[31m[1mPOST /accounts/create-new HTTP/1.1[0m" 400 -
+ERROR:__main__:L\u1ed7i xác th\u1ef1c khi t\u1ea1o tài kho\u1ea3n: {'login': ['Login ph\u1ea3i có \u0111\u1ed9 dài t\u1eeb 3 \u0111\u1ebfn 20 ký t\u1ef1']}
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:32:13] "[31m[1mPOST /accounts/create-new HTTP/1.1[0m" 400 -
+ERROR:__main__:L\u1ed7i xác th\u1ef1c khi t\u1ea1o tài kho\u1ea3n: {'login': ['Login ph\u1ea3i có \u0111\u1ed9 dài t\u1eeb 3 \u0111\u1ebfn 20 ký t\u1ef1']}
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:32:14] "[31m[1mPOST /accounts/create-new HTTP/1.1[0m" 400 -
+INFO:__main__:T\u1ea1o tài kho\u1ea3n m\u1edbi: 3333333
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:32:19] "[35m[1mPOST /accounts/create-new HTTP/1.1[0m" 201 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:32:55] "GET /accounts/get-list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:33:13] "GET /accounts/get/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:34:15] "GET /accounts/get/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:34:48] "[31m[1mGET /accounts/update/1 HTTP/1.1[0m" 405 -
+ERROR:__main__:L\u1ed7i khi c\u1eadp nh\u1eadt tài kho\u1ea3n 1: 400 Bad Request: Failed to decode JSON object: Expecting property name enclosed in double quotes: line 5 column 1 (char 91)
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:35:07] "[35m[1mPUT /accounts/update/1 HTTP/1.1[0m" 500 -
+ERROR:__main__:L\u1ed7i khi c\u1eadp nh\u1eadt tài kho\u1ea3n 1: 400 Bad Request: Failed to decode JSON object: Expecting property name enclosed in double quotes: line 5 column 1 (char 95)
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:35:54] "[35m[1mPUT /accounts/update/1 HTTP/1.1[0m" 500 -
+ERROR:__main__:L\u1ed7i khi c\u1eadp nh\u1eadt tài kho\u1ea3n 1: 400 Bad Request: Failed to decode JSON object: Expecting property name enclosed in double quotes: line 5 column 1 (char 95)
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:35:56] "[35m[1mPUT /accounts/update/1 HTTP/1.1[0m" 500 -
+INFO:__main__:C\u1eadp nh\u1eadt tài kho\u1ea3n: user1222511111
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:36:01] "PUT /accounts/update/1 HTTP/1.1" 200 -
+ERROR:__main__:L\u1ed7i xác th\u1ef1c khi c\u1eadp nh\u1eadt tài kho\u1ea3n 1: {'login': ['Login \u0111ã t\u1ed3n t\u1ea1i']}
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:36:03] "[31m[1mPUT /accounts/update/1 HTTP/1.1[0m" 400 -
+INFO:__main__:Xóa tài kho\u1ea3n: user1222511111
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:36:32] "DELETE /accounts/delete/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:36:36] "GET /accounts/get-list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:36:41] "GET /accounts/get-list HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'E:\\test\\test_1\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 298-280-948
+INFO:werkzeug: * Detected change in 'E:\\test\\test_1\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 298-280-948
+INFO:werkzeug: * Detected change in 'E:\\test\\test_1\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 298-280-948
+INFO:werkzeug: * Detected change in 'E:\\test\\test_1\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 298-280-948
+INFO:werkzeug: * Detected change in 'E:\\test\\test_1\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 298-280-948
+INFO:werkzeug: * Detected change in 'E:\\test\\test_1\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 298-280-948
+INFO:werkzeug: * Detected change in 'E:\\test\\test_1\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 298-280-948
+ERROR:__main__:L\u1ed7i xác th\u1ef1c khi t\u1ea1o tài kho\u1ea3n: {'login': ['Login \u0111ã t\u1ed3n t\u1ea1i']}
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:44:23] "[31m[1mPOST /accounts/create-new HTTP/1.1[0m" 400 -
+ERROR:__main__:L\u1ed7i xác th\u1ef1c khi t\u1ea1o tài kho\u1ea3n: {'login': ['Login ph\u1ea3i có \u0111\u1ed9 dài t\u1eeb 3 \u0111\u1ebfn 20 ký t\u1ef1', 'Login ch\u1ec9 \u0111\u01b0\u1ee3c ch\u1ee9a ch\u1eef cái và s\u1ed1']}
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:45:01] "[31m[1mPOST /accounts/create-new HTTP/1.1[0m" 400 -
+INFO:werkzeug: * Detected change in 'E:\\test\\test_1\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 298-280-948
+ERROR:__main__:L\u1ed7i xác th\u1ef1c khi t\u1ea1o tài kho\u1ea3n: {'login': ['Login ph\u1ea3i có \u0111\u1ed9 dài t\u1eeb 3 \u0111\u1ebfn 20 ký t\u1ef1', 'Login ch\u1ec9 \u0111\u01b0\u1ee3c ch\u1ee9a ch\u1eef cái và s\u1ed1']}
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:45:44] "[31m[1mPOST /accounts/create-new HTTP/1.1[0m" 400 -
+ERROR:__main__:L\u1ed7i xác th\u1ef1c khi t\u1ea1o tài kho\u1ea3n: {'login': ['Login ph\u1ea3i có \u0111\u1ed9 dài t\u1eeb 3 \u0111\u1ebfn 20 ký t\u1ef1', 'Login ch\u1ec9 \u0111\u01b0\u1ee3c ch\u1ee9a ch\u1eef cái và s\u1ed1']}
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:45:45] "[31m[1mPOST /accounts/create-new HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:46:08] "GET /accounts/get-list HTTP/1.1" 200 -
+ERROR:__main__:L\u1ed7i xác th\u1ef1c khi t\u1ea1o tài kho\u1ea3n: {'login': ['Login \u0111ã t\u1ed3n t\u1ea1i']}
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:46:17] "[31m[1mPOST /accounts/create-new HTTP/1.1[0m" 400 -
+ERROR:__main__:L\u1ed7i xác th\u1ef1c khi t\u1ea1o tài kho\u1ea3n: {'password': ['Password ph\u1ea3i ch\u1ee9a ít nh\u1ea5t m\u1ed9t s\u1ed1 và m\u1ed9t ch\u1eef hoa'], 'login': ['Login \u0111ã t\u1ed3n t\u1ea1i']}
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:46:28] "[31m[1mPOST /accounts/create-new HTTP/1.1[0m" 400 -
+ERROR:__main__:L\u1ed7i xác th\u1ef1c khi t\u1ea1o tài kho\u1ea3n: {'login': ['Missing data for required field.'], 'password': ['Password ph\u1ea3i ch\u1ee9a ít nh\u1ea5t m\u1ed9t s\u1ed1 và m\u1ed9t ch\u1eef hoa']}
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:46:47] "[31m[1mPOST /accounts/create-new HTTP/1.1[0m" 400 -
+ERROR:__main__:L\u1ed7i xác th\u1ef1c khi t\u1ea1o tài kho\u1ea3n: {'login': ['Missing data for required field.'], 'password': ['Password ph\u1ea3i ch\u1ee9a ít nh\u1ea5t m\u1ed9t s\u1ed1 và m\u1ed9t ch\u1eef hoa']}
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:46:48] "[31m[1mPOST /accounts/create-new HTTP/1.1[0m" 400 -
+INFO:werkzeug: * Detected change in 'E:\\test\\test_1\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 298-280-948
+ERROR:__main__:L\u1ed7i xác th\u1ef1c khi t\u1ea1o tài kho\u1ea3n: {'login': ['Missing data for required field.'], 'password': ['Password ph\u1ea3i ch\u1ee9a ít nh\u1ea5t m\u1ed9t s\u1ed1 và m\u1ed9t ch\u1eef hoa']}
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:46:57] "[31m[1mPOST /accounts/create-new HTTP/1.1[0m" 400 -
+ERROR:__main__:L\u1ed7i xác th\u1ef1c khi t\u1ea1o tài kho\u1ea3n: {'login': ['Missing data for required field.'], 'password': ['Password ph\u1ea3i ch\u1ee9a ít nh\u1ea5t m\u1ed9t s\u1ed1 và m\u1ed9t ch\u1eef hoa']}
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:46:59] "[31m[1mPOST /accounts/create-new HTTP/1.1[0m" 400 -
+ERROR:__main__:L\u1ed7i xác th\u1ef1c khi t\u1ea1o tài kho\u1ea3n: {'password': ['Password ph\u1ea3i ch\u1ee9a ít nh\u1ea5t m\u1ed9t s\u1ed1 và m\u1ed9t ch\u1eef hoa'], 'login': ['Login \u0111ã t\u1ed3n t\u1ea1i']}
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:47:11] "[31m[1mPOST /accounts/create-new HTTP/1.1[0m" 400 -
+ERROR:__main__:L\u1ed7i xác th\u1ef1c khi t\u1ea1o tài kho\u1ea3n: {'password': ['Password ph\u1ea3i ch\u1ee9a ít nh\u1ea5t m\u1ed9t s\u1ed1 và m\u1ed9t ch\u1eef hoa'], 'login': ['Login \u0111ã t\u1ed3n t\u1ea1i']}
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:47:12] "[31m[1mPOST /accounts/create-new HTTP/1.1[0m" 400 -
+ERROR:__main__:L\u1ed7i xác th\u1ef1c khi t\u1ea1o tài kho\u1ea3n: {'password': ['Password ph\u1ea3i ch\u1ee9a ít nh\u1ea5t m\u1ed9t s\u1ed1 và m\u1ed9t ch\u1eef hoa'], 'login': ['Login \u0111ã t\u1ed3n t\u1ea1i']}
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:47:14] "[31m[1mPOST /accounts/create-new HTTP/1.1[0m" 400 -
+ERROR:__main__:L\u1ed7i xác th\u1ef1c khi t\u1ea1o tài kho\u1ea3n: {'login': ['Login \u0111ã t\u1ed3n t\u1ea1i']}
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:47:19] "[31m[1mPOST /accounts/create-new HTTP/1.1[0m" 400 -
+ERROR:__main__:L\u1ed7i xác th\u1ef1c khi t\u1ea1o tài kho\u1ea3n: {'login': ['Login \u0111ã t\u1ed3n t\u1ea1i']}
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:47:20] "[31m[1mPOST /accounts/create-new HTTP/1.1[0m" 400 -
+INFO:werkzeug: * Detected change in 'E:\\test\\test_1\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 298-280-948
+ERROR:__main__:L\u1ed7i xác th\u1ef1c khi t\u1ea1o tài kho\u1ea3n: {'login': ['Login \u0111ã t\u1ed3n t\u1ea1i']}
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:47:58] "[31m[1mPOST /accounts/create-new HTTP/1.1[0m" 400 -
+ERROR:__main__:L\u1ed7i xác th\u1ef1c khi t\u1ea1o tài kho\u1ea3n: {'login': ['Login ph\u1ea3i có \u0111\u1ed9 dài t\u1eeb 3 \u0111\u1ebfn 20 ký t\u1ef1', 'Login ch\u1ec9 \u0111\u01b0\u1ee3c ch\u1ee9a ch\u1eef cái và s\u1ed1']}
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:48:21] "[31m[1mPOST /accounts/create-new HTTP/1.1[0m" 400 -
+INFO:werkzeug: * Detected change in 'E:\\test\\test_1\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 298-280-948
+ERROR:__main__:L\u1ed7i xác th\u1ef1c khi t\u1ea1o tài kho\u1ea3n: {'login': ['Login ph\u1ea3i có \u0111\u1ed9 dài t\u1eeb 3 \u0111\u1ebfn 20 ký t\u1ef1', 'Login ch\u1ec9 \u0111\u01b0\u1ee3c ch\u1ee9a ch\u1eef cái và s\u1ed1']}
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:48:55] "[31m[1mPOST /accounts/create-new HTTP/1.1[0m" 400 -
+INFO:__main__:T\u1ea1o tài kho\u1ea3n m\u1edbi \u0111ã t\u1ea1o thành công: 111111
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:49:02] "[35m[1mPOST /accounts/create-new HTTP/1.1[0m" 201 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:49:12] "GET /accounts/get-list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:49:14] "GET /accounts/get-list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:49:15] "GET /accounts/get-list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:49:19] "GET /accounts/get-list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:49:20] "GET /accounts/get-list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:49:21] "GET /accounts/get-list HTTP/1.1" 200 -
+ERROR:__main__:L\u1ed7i khi l\u1ea5y thông tin tài kho\u1ea3n 1: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:49:36] "[35m[1mGET /accounts/get/1 HTTP/1.1[0m" 500 -
+ERROR:__main__:L\u1ed7i khi l\u1ea5y thông tin tài kho\u1ea3n 1: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:49:39] "[35m[1mGET /accounts/get/1 HTTP/1.1[0m" 500 -
+ERROR:__main__:L\u1ed7i khi l\u1ea5y thông tin tài kho\u1ea3n 1: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:50:37] "[35m[1mGET /accounts/get/1 HTTP/1.1[0m" 500 -
+ERROR:__main__:L\u1ed7i khi l\u1ea5y thông tin tài kho\u1ea3n 1: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:50:38] "[35m[1mGET /accounts/get/1 HTTP/1.1[0m" 500 -
+ERROR:__main__:L\u1ed7i khi l\u1ea5y thông tin tài kho\u1ea3n 1: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:50:41] "[35m[1mGET /accounts/get/1 HTTP/1.1[0m" 500 -
+ERROR:__main__:L\u1ed7i khi l\u1ea5y thông tin tài kho\u1ea3n 1: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:50:42] "[35m[1mGET /accounts/get/1 HTTP/1.1[0m" 500 -
+ERROR:__main__:L\u1ed7i khi l\u1ea5y thông tin tài kho\u1ea3n 1: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:51:01] "[35m[1mGET /accounts/get/1 HTTP/1.1[0m" 500 -
+ERROR:__main__:L\u1ed7i khi l\u1ea5y thông tin tài kho\u1ea3n 1: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:51:02] "[35m[1mGET /accounts/get/1 HTTP/1.1[0m" 500 -
+ERROR:__main__:L\u1ed7i khi l\u1ea5y thông tin tài kho\u1ea3n 1: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:51:19] "[35m[1mGET /accounts/get/1 HTTP/1.1[0m" 500 -
+ERROR:__main__:L\u1ed7i khi l\u1ea5y thông tin tài kho\u1ea3n 1: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:51:21] "[35m[1mGET /accounts/get/1 HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:51:32] "GET /accounts/get/4 HTTP/1.1" 200 -
+ERROR:__main__:L\u1ed7i khi l\u1ea5y thông tin tài kho\u1ea3n 1: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:51:35] "[35m[1mGET /accounts/get/1 HTTP/1.1[0m" 500 -
+ERROR:__main__:L\u1ed7i xác th\u1ef1c khi c\u1eadp nh\u1eadt tài kho\u1ea3n 4: {'registerID': ['Unknown field.']}
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:52:05] "[31m[1mPUT /accounts/update/4 HTTP/1.1[0m" 400 -
+INFO:__main__:C\u1eadp nh\u1eadt tài kho\u1ea3n: 111113331
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:52:11] "PUT /accounts/update/4 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:52:19] "GET /accounts/get/4 HTTP/1.1" 200 -
+ERROR:__main__:L\u1ed7i xác th\u1ef1c khi c\u1eadp nh\u1eadt tài kho\u1ea3n 4: {'login': ['Login ph\u1ea3i có \u0111\u1ed9 dài t\u1eeb 3 \u0111\u1ebfn 20 ký t\u1ef1', 'Login ch\u1ec9 \u0111\u01b0\u1ee3c ch\u1ee9a ch\u1eef cái và s\u1ed1']}
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:53:51] "[31m[1mPUT /accounts/update/4 HTTP/1.1[0m" 400 -
+INFO:__main__:C\u1eadp nh\u1eadt tài kho\u1ea3n: 111
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:53:56] "PUT /accounts/update/4 HTTP/1.1" 200 -
+INFO:__main__:C\u1eadp nh\u1eadt tài kho\u1ea3n: 111
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:54:03] "PUT /accounts/update/4 HTTP/1.1" 200 -
+INFO:__main__:C\u1eadp nh\u1eadt tài kho\u1ea3n: 111
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:54:05] "PUT /accounts/update/4 HTTP/1.1" 200 -
+INFO:__main__:C\u1eadp nh\u1eadt tài kho\u1ea3n: 111
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:54:05] "PUT /accounts/update/4 HTTP/1.1" 200 -
+INFO:__main__:C\u1eadp nh\u1eadt tài kho\u1ea3n: 111
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:54:06] "PUT /accounts/update/4 HTTP/1.1" 200 -
+INFO:__main__:C\u1eadp nh\u1eadt tài kho\u1ea3n: 111
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:54:07] "PUT /accounts/update/4 HTTP/1.1" 200 -
+INFO:__main__:C\u1eadp nh\u1eadt tài kho\u1ea3n: 111
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:54:07] "PUT /accounts/update/4 HTTP/1.1" 200 -
+INFO:__main__:C\u1eadp nh\u1eadt tài kho\u1ea3n: 111
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:54:08] "PUT /accounts/update/4 HTTP/1.1" 200 -
+ERROR:__main__:L\u1ed7i xác th\u1ef1c khi c\u1eadp nh\u1eadt tài kho\u1ea3n 4: {'password': ['Password ph\u1ea3i ch\u1ee9a ít nh\u1ea5t m\u1ed9t s\u1ed1 và m\u1ed9t ch\u1eef hoa'], 'login': ['Login \u0111ã t\u1ed3n t\u1ea1i']}
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:54:14] "[31m[1mPUT /accounts/update/4 HTTP/1.1[0m" 400 -
+ERROR:__main__:L\u1ed7i xác th\u1ef1c khi c\u1eadp nh\u1eadt tài kho\u1ea3n 4: {'password': ['Password ph\u1ea3i ch\u1ee9a ít nh\u1ea5t m\u1ed9t s\u1ed1 và m\u1ed9t ch\u1eef hoa'], 'login': ['Login \u0111ã t\u1ed3n t\u1ea1i']}
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:54:19] "[31m[1mPUT /accounts/update/4 HTTP/1.1[0m" 400 -
+INFO:__main__:Xóa tài kho\u1ea3n: 111
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:55:12] "DELETE /accounts/delete/4 HTTP/1.1" 200 -
+ERROR:__main__:L\u1ed7i khi xóa tài kho\u1ea3n 4: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:55:13] "[35m[1mDELETE /accounts/delete/4 HTTP/1.1[0m" 500 -
+ERROR:__main__:L\u1ed7i khi xóa tài kho\u1ea3n 4: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:55:14] "[35m[1mDELETE /accounts/delete/4 HTTP/1.1[0m" 500 -
+ERROR:__main__:L\u1ed7i khi l\u1ea5y thông tin tài kho\u1ea3n 4: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:55:20] "[35m[1mGET /accounts/get/4 HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'E:\\test\\test_1\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 298-280-948
+WARNING:__main__:Không t\u1ed3n t\u1ea1i tài kho\u1ea3n v\u1edbi registerID: 4
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:55:54] "[33mGET /accounts/get/4 HTTP/1.1[0m" 404 -
+WARNING:__main__:Không t\u1ed3n t\u1ea1i tài kho\u1ea3n v\u1edbi registerID: 4
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:55:55] "[33mGET /accounts/get/4 HTTP/1.1[0m" 404 -
+WARNING:__main__:Không t\u1ed3n t\u1ea1i tài kho\u1ea3n v\u1edbi registerID: 4
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:55:55] "[33mGET /accounts/get/4 HTTP/1.1[0m" 404 -
+WARNING:__main__:Không t\u1ed3n t\u1ea1i tài kho\u1ea3n v\u1edbi registerID: 4
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:26:54] "[33mGET /accounts/get/4 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:27:05] "GET /accounts/get/2 HTTP/1.1" 200 -

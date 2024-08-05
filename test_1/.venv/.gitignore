@@ -1,0 +1,40 @@
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+
+# C?u hình IDE
+.idea/
+.vscode/
+
+# Môi tr??ng ?o
+venv/
+env/
+
+# C?u hình c?a PyCharm
+*.iml
+*.idea/
+
+# C?u hình c?a VSCode
+.vscode/
+
+# C? s? d? li?u
+*.db
+*.sqlite3
+
+# Th? m?c cài ??t
+*.egg-info/
+dist/
+build/
+
+# File logs
+*.log
+
+# File cache
+*.cache
+
+# Th? m?c cài ??t c?a th? vi?n
+pip-log.txt
+pip-delete-this-directory.txt
+
+# File môi tr??ng ?o
+.env
