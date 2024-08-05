@@ -16,7 +16,7 @@ M?t API qu?n lý tài kho?n ??n gi?n ???c xây d?ng b?ng Flask và SQLAlchemy.
 
  ```bash
    git clone https://github.com/Hishuhihe/Test.git
-   cd repository-name
+   cd test_1
 ```
 2. Create virtual environment and install requirements:
     python -m venv venv
