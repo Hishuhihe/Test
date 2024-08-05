@@ -1,0 +1,26 @@
+# T?p tin môi tr??ng ?o
+venv/
+.env
+
+# T?p tin c?u hình IDE
+.idea/
+.vscode/
+
+# T?p tin biên d?ch Python
+__pycache__/
+*.pyc
+*.pyo
+
+# T?p tin SQLite
+*.db
+
+# T?p tin log
+*.log
+*.sqlite3
+
+# Các t?p tin khác không c?n thi?t
+*.DS_Store
+*.swp
+
+# Th? m?c instance
+instance/
