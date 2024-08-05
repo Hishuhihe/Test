@@ -2,26 +2,23 @@
 __pycache__/
 *.py[cod]
 
-# C?u hình IDE
+# C?u hï¿½nh IDE
 .idea/
 .vscode/
 
-# Môi tr??ng ?o
-venv/
-env/
+# Mï¿½i tr??ng ?o
+.venv/
+.instance/
 
-# C?u hình c?a PyCharm
+# C?u hï¿½nh c?a PyCharm
 *.iml
 *.idea/
-
-# C?u hình c?a VSCode
-.vscode/
 
 # C? s? d? li?u
 *.db
 *.sqlite3
 
-# Th? m?c cài ??t
+# Th? m?c cï¿½i ??t
 *.egg-info/
 dist/
 build/
@@ -32,9 +29,9 @@ build/
 # File cache
 *.cache
 
-# Th? m?c cài ??t c?a th? vi?n
+# Th? m?c cï¿½i ??t c?a th? vi?n
 pip-log.txt
 pip-delete-this-directory.txt
 
-# File môi tr??ng ?o
+# File mï¿½i tr??ng ?o
 .env
